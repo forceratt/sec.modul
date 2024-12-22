@@ -1,9 +1,5 @@
 @import "reset.css";
-@font-face {
-  font-family: "soyuz grotesk";
-  src: url("../fonts/Soyuz\ Grotesk\ Bold.otf") format("opentype");
-}
+@import "fonts.css";
 @import "layout.css";
-@import "reset.css";
 @import "animation.css";
-@import "adaptives";
+@import "adaptive.css";

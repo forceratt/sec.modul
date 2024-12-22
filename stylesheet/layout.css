@@ -1,8 +1,194 @@
-body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: "PT Sans", sans-serif;
-}
 * {
   box-sizing: border-box;
+}
+section {
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+
+body {
+  display: block;
+  font-family: "soyuz grotesk";
+  position: relative;
+  background-color: black;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+}
+.pic1 {
+  background-image: url(../images/mblestsvg.svg);
+  width: 50vw;
+  height: 48vw;
+  animation: pic1anim 1s steps(1) infinite;
+}
+.pic2 {
+  background-image: url(../images/rumstsvg.svg);
+  width: 50vw;
+  height: 48vw;
+  animation: pic2anim 1s steps(1) infinite;
+}
+.section2 {
+  display: flex;
+  flex-direction: row;
+}
+.kvadrat1 {
+  background-image: url(../images/kvadrat1.png);
+  width: 56vw;
+  height: 28.8vw;
+}
+.text1 {
+  background-image: url(../images/pusttebyausl.svg);
+  margin-left: 3vw;
+  margin-top: 6vw;
+  width: 28.8vw;
+  height: 17.7vw;
+}
+.vse {
+  background-image: url(../images/blurvse.svg);
+  width: 39vw;
+  height: 17vw;
+  margin-top: -22vw;
+  margin-left: 18vw;
+}
+.v {
+  background-image: url(../images/vvse.svg);
+  width: 10.5vw;
+  height: 10.4vw;
+  margin-top: -13vw;
+  margin-left: 24vw;
+  animation-name: rotation1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.s {
+  background-image: url(../images/svse.svg);
+  width: 9.2vw;
+  height: 9.5vw;
+  margin-top: -10.5vw;
+  margin-left: 35vw;
+  animation-name: rotation2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.e {
+  background-image: url(../images/evse.svg);
+  width: 9.4vw;
+  height: 9.5vw;
+  margin-top: -9.5vw;
+  margin-left: 44.8vw;
+  animation-name: rotation3;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.kvadrat2 {
+  background-image: url(../images/kvadrat2.svg);
+  width: 45vw;
+  height: 28.8vw;
+}
+.xvost {
+  background-image: url(../images/xvost.svg);
+  width: 24.6vw;
+  height: 26vw;
+  margin-left: 10vw;
+  margin-top: 1vw;
+  animation-name: rotation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.section4 {
+  display: flex;
+  flex-direction: row;
+}
+.kvadrat3 {
+  background-image: url(../images/kvadrat3.svg);
+  width: 40.4vw;
+  height: 28.8vw;
+}
+.xvosty {
+  background-image: url(../images/xvosty.svg);
+  width: 39vw;
+  height: 27.3vw;
+  margin-top: 1vw;
+}
+.kvadrat4 {
+  background-image: url(../images/kvadrat4.svg);
+  width: 60vw;
+  height: 29.8vw;
+  margin-top: -1vw;
+}
+.perviy {
+  background-image: url(../images/perviy.svg);
+  width: 18vw;
+  height: 4.3vw;
+  margin-top: 5vw;
+  margin-left: 5vw;
+}
+.edins {
+  background-image: url(../images/edins.svg);
+  width: 41.3vw;
+  height: 4.4vw;
+  margin-top: 1vw;
+  margin-left: 6vw;
+}
+.fest {
+  background-image: url(../images/fest.svg);
+  width: 38.6vw;
+  height: 4.9vw;
+  margin-top: 1vw;
+  margin-left: 13vw;
+}
+.tvoygolos {
+  background-image: url(../images/tvoygolos.svg);
+  width: 29vw;
+  height: 3.5vw;
+  margin-top: 1vw;
+  margin-left: 16vw;
+}
+.section5 {
+  display: flex;
+  flex-direction: row;
+}
+.tochno {
+  background-image: url(../images/tochno.svg);
+  width: 100vw;
+  height: 44.6vw;
+  animation: tochnoanim 0.8s steps(1) infinite;
+}
+.section6 {
+  display: flex;
+  flex-direction: row;
+}
+.running {
+  background-image: url(../images/running.svg);
+  width: 100vw;
+  height: 6.7vw;
+}
+.rumble {
+  background-image: url(../images/rumble.svg);
+  width: 100vw;
+  height: 6vw;
+  margin-top: 0.2vw;
+}
+.section7 {
+  display: flex;
+  flex-direction: row;
+}
+.black {
+  background-image: url(../images/black.svg);
+  width: 100vw;
+  height: 17vw;
+}
+.podval {
+  background-image: url(../images/podval.svg);
+  width: 92.9vw;
+  height: 11vw;
+  margin-top: 3vw;
+  margin-left: 3vw;
 }

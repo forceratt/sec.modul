@@ -1,0 +1,68 @@
+@keyframes pic1anim {
+  0% {
+    background-image: url(../images/mblestsvg.svg);
+  }
+  50% {
+    background-image: url(../images/rumstsvg.svg);
+  }
+  100% {
+    background-image: url(../images/mblestsvg.svg);
+  }
+}
+@keyframes pic2anim {
+  0% {
+    background-image: url(../images/rumstsvg.svg);
+  }
+  50% {
+    background-image: url(../images/mblestsvg.svg);
+  }
+  100% {
+    background-image: url(../images/rumstsvg.svg);
+  }
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotation1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotation2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotation3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes tochnoanim {
+  0% {
+    background-image: url(../images/tochno.svg);
+  }
+  25% {
+    background-image: url(../images/tochno1.svg);
+  }
+  50% {
+    background-image: url(../images/tochno2.svg);
+  }
+  75% {
+    background-image: url(../images/tochno3.svg);
+  }
+}
