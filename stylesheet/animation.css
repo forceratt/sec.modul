@@ -83,3 +83,59 @@
     transform: translateX(-100vw);
   }
 }
+.perviy {
+  animation: perviy 6s linear infinite;
+}
+@keyframes perviy {
+  0% {
+    transform: translateX(37vw);
+  }
+  50% {
+    transform: translateX(-5vw);
+  }
+  100% {
+    transform: translateX(37vw);
+  }
+}
+.edins {
+  animation: edins 2s linear infinite;
+}
+@keyframes edins {
+  0% {
+    transform: translateX(12.5vw);
+  }
+  50% {
+    transform: translateX(-6vw);
+  }
+  100% {
+    transform: translateX(12.5vw);
+  }
+}
+.fest {
+  animation: fest 5s linear infinite;
+}
+@keyframes fest {
+  0% {
+    transform: translateX(8vw);
+  }
+  50% {
+    transform: translateX(-13.3vw);
+  }
+  100% {
+    transform: translateX(8vw);
+  }
+}
+.tvoygolos {
+  animation: tvoygolos 3s linear infinite;
+}
+@keyframes tvoygolos {
+  0% {
+    transform: translateX(15vw);
+  }
+  50% {
+    transform: translateX(-16vw);
+  }
+  100% {
+    transform: translateX(15vw);
+  }
+}
