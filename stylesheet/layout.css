@@ -18,16 +18,18 @@ body {
   display: flex;
   flex-direction: row;
 }
-.pic1 {
-  background-image: url(../images/mblestsvg.svg);
+.pic1,
+.pic2 {
   width: 50vw;
   height: 48vw;
+  background-size: cover;
+}
+.pic1 {
+  background-image: url(../images/mblestsvg.svg);
   animation: pic1anim 1s steps(1) infinite;
 }
 .pic2 {
   background-image: url(../images/rumstsvg.svg);
-  width: 50vw;
-  height: 48vw;
   animation: pic2anim 1s steps(1) infinite;
 }
 .section2 {
@@ -38,20 +40,26 @@ body {
   background-image: url(../images/kvadrat1.png);
   width: 56vw;
   height: 28.8vw;
+  background-size: cover;
 }
 .text1 {
-  background-image: url(../images/pusttebyausl.svg);
   margin-left: 3vw;
-  margin-top: 6vw;
-  width: 28.8vw;
-  height: 17.7vw;
+  margin-top: 3vw;
+  font-size: 7vw;
+  color: white;
+  line-height: 60%;
+  background-size: cover;
+}
+.text1 span:hover {
+  color: #1736d2;
 }
 .vse {
   background-image: url(../images/blurvse.svg);
   width: 39vw;
   height: 17vw;
-  margin-top: -22vw;
+  margin-top: -20vw;
   margin-left: 18vw;
+  background-size: cover;
 }
 .v {
   background-image: url(../images/vvse.svg);
@@ -63,6 +71,7 @@ body {
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  background-size: cover;
 }
 .s {
   background-image: url(../images/svse.svg);
@@ -74,6 +83,7 @@ body {
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  background-size: cover;
 }
 .e {
   background-image: url(../images/evse.svg);
@@ -85,11 +95,13 @@ body {
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  background-size: cover;
 }
 .kvadrat2 {
   background-image: url(../images/kvadrat2.svg);
-  width: 45vw;
+  width: 44vw;
   height: 28.8vw;
+  background-size: cover;
 }
 .xvost {
   background-image: url(../images/xvost.svg);
@@ -101,6 +113,7 @@ body {
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  background-size: cover;
 }
 .section4 {
   display: flex;
@@ -110,18 +123,21 @@ body {
   background-image: url(../images/kvadrat3.svg);
   width: 40.4vw;
   height: 28.8vw;
+  background-size: cover;
 }
 .xvosty {
   background-image: url(../images/xvosty.svg);
   width: 39vw;
   height: 27.3vw;
   margin-top: 1vw;
+  background-size: cover;
 }
 .kvadrat4 {
   background-image: url(../images/kvadrat4.svg);
   width: 60vw;
-  height: 29.8vw;
-  margin-top: -1vw;
+  height: 28.8;
+  margin-top: 0vw;
+  background-size: cover;
 }
 .perviy {
   background-image: url(../images/perviy.svg);
@@ -129,6 +145,7 @@ body {
   height: 4.3vw;
   margin-top: 5vw;
   margin-left: 5vw;
+  background-size: cover;
 }
 .edins {
   background-image: url(../images/edins.svg);
@@ -136,6 +153,7 @@ body {
   height: 4.4vw;
   margin-top: 1vw;
   margin-left: 6vw;
+  background-size: cover;
 }
 .fest {
   background-image: url(../images/fest.svg);
@@ -143,6 +161,7 @@ body {
   height: 4.9vw;
   margin-top: 1vw;
   margin-left: 13vw;
+  background-size: cover;
 }
 .tvoygolos {
   background-image: url(../images/tvoygolos.svg);
@@ -150,6 +169,7 @@ body {
   height: 3.5vw;
   margin-top: 1vw;
   margin-left: 16vw;
+  background-size: cover;
 }
 .section5 {
   display: flex;
@@ -160,6 +180,7 @@ body {
   width: 100vw;
   height: 44.6vw;
   animation: tochnoanim 0.8s steps(1) infinite;
+  background-size: cover;
 }
 .section6 {
   display: flex;
@@ -169,12 +190,14 @@ body {
   background-image: url(../images/running.svg);
   width: 100vw;
   height: 6.7vw;
+  background-size: cover;
 }
 .rumble {
   background-image: url(../images/rumble.svg);
   width: 100vw;
   height: 6vw;
   margin-top: 0.2vw;
+  background-size: cover;
 }
 .section7 {
   display: flex;
@@ -183,12 +206,22 @@ body {
 .black {
   background-image: url(../images/black.svg);
   width: 100vw;
-  height: 17vw;
+  height: 25vw;
+  background-size: cover;
 }
 .podval {
   background-image: url(../images/podval.svg);
-  width: 92.9vw;
-  height: 11vw;
-  margin-top: 3vw;
-  margin-left: 3vw;
+  width: 52vw;
+  height: 17.5vw;
+  margin-top: 3.5vw;
+  margin-left: 2vw;
+  background-size: cover;
+}
+.hse {
+  background-image: url(../images/hse.svg);
+  background-size: cover;
+  width: 38vw;
+  height: 15vw;
+  margin-left: 59vw;
+  margin-top: -17vw;
 }
