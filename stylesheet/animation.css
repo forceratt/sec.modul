@@ -66,3 +66,20 @@
     background-image: url(../images/tochno3.svg);
   }
 }
+
+@keyframes xvostymove {
+  0% {
+    transform: translateX(0vw);
+  }
+  100% {
+    transform: translateX(-42vw);
+  }
+}
+@keyframes rumble {
+  0% {
+    transform: translateX(0vw);
+  }
+  100% {
+    transform: translateX(-100vw);
+  }
+}

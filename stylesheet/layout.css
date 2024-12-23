@@ -13,6 +13,9 @@ body {
   position: relative;
   background-color: black;
 }
+div {
+  overflow: hidden;
+}
 
 .section1 {
   display: flex;
@@ -126,11 +129,13 @@ body {
   background-size: cover;
 }
 .xvosty {
-  background-image: url(../images/xvosty.svg);
-  width: 39vw;
+  background-image: url(../images/xvosty2.svg);
+  width: 80vw;
   height: 27.3vw;
   margin-top: 1vw;
   background-size: cover;
+
+  animation: xvostymove 4s linear infinite;
 }
 .kvadrat4 {
   background-image: url(../images/kvadrat4.svg);
@@ -193,11 +198,12 @@ body {
   background-size: cover;
 }
 .rumble {
-  background-image: url(../images/rumble.svg);
-  width: 100vw;
+  background-image: url(../images/rumble3.svg);
+  width: 200vw;
   height: 6vw;
   margin-top: 0.2vw;
   background-size: cover;
+  animation: rumble 4s linear infinite;
 }
 .section7 {
   display: flex;
